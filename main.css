@@ -1,0 +1,43 @@
+body {
+  font-family: Inter, sans-serif;
+}
+
+header {
+  margin: 20px;
+  padding: 10px;
+  background-color: rosybrown;
+}
+
+h1 {
+  font-family: Arial;
+  color: blue;
+}
+
+main.flex {
+  background-color: grey;
+  border: 5px red dashed;
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 10px 4px;
+}
+
+section {
+  padding: 30px 10px;
+  border: 1px solid black;
+  background-color: lightyellow;
+  display: block;
+}
+section:hover {
+  background-color: lightgreen;
+  transition-duration: 500ms;
+  filter: blur(1px);
+}
+section:first-child {
+  background-color: lightcoral;
+}
+
+section:last-child {
+  background-color: black;
+  color: white;
+}
